@@ -1,7 +1,7 @@
 INTRODUCTION
 
 WINDOWS :
-Pour lancer le projet vous devez suivre le tuto ci dessous pour installer le compilateur GCC :
+Pour lancer le projet vous devez suivre le tuto ci dessous pour installer le compilateur G++ :
 
 https://code.visualstudio.com/docs/cpp/config-mingw
 
