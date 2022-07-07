@@ -26,11 +26,11 @@ protected:
 public:
 	Tree() { root = 0; } // initialize tree
 	~Tree();//dedstructor
-	bool isEmpty() const;//says if tree is emoty
-	void clear() { clear(root); root = 0; }//maatefet
-	void preOrder() { preOrder(root); }//maatefet
-	void inOrder() { inOrder(root); }//maatefet
-	void postOrder() { postOrder(root); }//maatefet
+	bool isEmpty() const;//says if tree is empty
+	void clear() { clear(root); root = 0; }
+	void preOrder() { preOrder(root); }
+	void inOrder() { inOrder(root); }
+	void postOrder() { postOrder(root); }
 	virtual void process(T val) { cout << val << " "; }
 	virtual void add(T val) = 0;//pure virtual
 	virtual bool search(T val) = 0;//pure virualitty
